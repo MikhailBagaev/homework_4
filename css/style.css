@@ -27,7 +27,7 @@ header {
 */
 .contacts h4,
 .contacts p {
-    font-family: Tahoma Regular, sans-serif;
+    font-family: "Tahoma Regular", sans-serif;
     font-size: 12px;
     color: #128aa7;
     line-height: 18px;
@@ -38,15 +38,16 @@ header {
 	right: 30px;
 }
 /*HEADER countries*/	
-.countries a {
-	font-family: Tahoma Regular, sans-serif;
+.countries a p {
+	font-family: "Tahoma Regular", sans-serif;
     font-size: 10px;
     color: #128aa7;        
 }
 .countries li {
 	display: inline-block;
 	width: 56px;	
-	text-align: center;		
+	text-align: center;
+	padding-bottom: 6px;		
 }
 .countries {
 	float: right;
@@ -92,7 +93,7 @@ header {
 }
 .main_menu a {
 	text-decoration: none;
-	font-family: Tahoma Regular, sans-serif;
+	font-family: "Tahoma Regular", sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 }
@@ -139,24 +140,25 @@ main {
 	float: right;   
 }
 h2 {
-	font-family: Tahoma Regular, sans-serif;
+	font-family: "Tahoma Regular", sans-serif;
 	font-size: 18px;
 	color: #424c43;
 	padding: 12px 0;
 	text-align: center;
 }
 .column p {
-	font-family: Tahoma Regular, sans-serif;
+	font-family: "Tahoma Regular", sans-serif;
 	font-size: 14px;
 	color: #424c43;	
 	padding: 0 15px 15px;
+	line-height: 23px;
 }
 /*FOOTER*/
 footer {
 	clear: both;	
 }
 footer p {
-	font-family: Tahoma Regular, sans-serif;
+	font-family: "Tahoma Regular", sans-serif;
 	font-size: 12px;
 	color: #ffffff;
 	width: 200px;
