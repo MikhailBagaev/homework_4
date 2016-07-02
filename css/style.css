@@ -43,6 +43,9 @@ header {
     font-size: 10px;
     color: #128aa7;        
 }
+.countries a {
+	color: #128aa7;
+}
 .countries li {
 	display: inline-block;
 	width: 56px;	
